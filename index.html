@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+      
+</head>
+<body onload="render()" onclick="showLoupe()">
+    <nav>
+        <h1>Galaxygram</h1>
+        <div id="input-field-container" class="input-field">
+            <input onclick="removeLoupe()" class="transperency-and-padding" id="input-field" type="text" placeholder="Suchen">
+        </div>
+        <div class="icon-section">
+            <img src="img/home-7-48.png" alt="">
+            <img src="img/paper-plane-48.png" alt="">
+            <img src="img/plus-6-48.png" alt="">
+            <img src="img/compass-3-48.png" alt="">
+            <img src="img/favorite-4-48.png" alt="">
+            <img class="pb-nav" src="img/pb3.jpg" alt="">
+        </div>
+    </nav>
+
+    <div class="content">
+        <div id="posts"></div>
+        <div class="user-section">
+            <div class="current-user-section">
+                <div class="current-user">
+                    <img src="img/pb3.jpg" alt="">
+                    <div class="profilename-container">
+                        <span class="profilename">Chewbacca</span>
+                        <span class="realname">Chewbacca</span>
+                    </div>
+                </div>
+                <button>Wechseln</button>
+            </div>
+            <div class="suggestions-headline">
+                <span>Vorschläge für dich</span>
+                <button>Alle ansehen</button>
+            </div>
+            <div id="suggestions" class="suggestions">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>

@@ -1,0 +1,395 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+h1 {
+    font-family: 'Dancing Script', sans-serif;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 32px;
+}
+
+nav {
+    padding: 12px 200px;
+    background-color: #ffffff;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    width: 276px;
+}
+
+.input-field {
+    height: 42.4px;
+    background-image: url(img/search.png);
+    background-repeat: no-repeat;
+    background-color: #efefef;
+    align-items: center;
+    background-position: 2% 50%;
+    border-radius: 8px;
+    width: 248px;
+}
+
+nav input {
+    padding: 12px;
+    background-color: #efefef;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.transperency-and-padding {
+    padding: 12px 12px 12px 36px;
+    background-color: rgb(0, 0, 0, 0) !important;
+}
+
+.icon-section {
+    display: flex;
+}
+
+.icon-section img {
+    height: 24px;
+    width: 24px;
+    object-fit: cover;
+    margin-left: 22px;
+}
+
+.pb-nav {
+    border-radius: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.user-section {
+    width: 320px;
+    margin-top: 8px;
+    margin-left: 32px;
+}
+
+.user-section button {
+    color: rgb(0, 149, 246);
+    border: 0;
+    background-color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.current-user-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.current-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.current-user img {
+    height: 56px;
+    width: 56px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 12px;
+}
+
+.profilename-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.profilename {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.realname {
+    font-size: 13px;
+    color: #8e8e8e;
+}
+
+.suggestions-headline {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.suggestions-headline span {
+    color: #8e8e8e;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.suggestions-headline button {
+    color: black
+}
+
+.suggestions {
+    margin-right: 8px;
+}
+
+.suggestion-container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+.suggestion-container-child {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.suggestion-container img {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 8px;
+}
+
+.follow-button:hover {
+    cursor: pointer;
+}
+
+.black-followed-button {
+    color: black !important;
+}
+
+#posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post {
+    max-width: 470px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.post-top {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+}
+
+.profilpic {
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.post-top-child {
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profilname {
+    font-weight: bold;
+}
+
+.location {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.post-image {
+    height: 470px;
+    width: 470px;
+    object-fit: cover;
+}
+
+.subsection {
+    padding: 0 4px;
+}
+
+.subsection-child {
+    padding: 0 8px 8px 8px;
+}
+
+.icon-line {
+    display: flex;
+}
+
+.like-icon:hover {
+    cursor: pointer;
+}
+
+.comment-icon {
+    cursor: pointer;
+}
+
+.icon-line img {
+    height: 24px;
+    width: 24px;
+    object-fit: cover;
+    margin: 8px;
+}
+
+.like-display {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+.profilname-subsection {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.caption {
+    font-size: 14px;
+}
+
+.comment-container {
+    margin: 0 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-line {
+    display: flex;
+}
+
+.comment {
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.add-comments-section {
+    border-top: 1px solid rgb(239, 239, 239);
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.add-comments-section img {
+    height: 24px;
+    width: 24px;
+    padding: 12px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 48px);
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+form button {
+    color: rgb(0, 149, 246);
+    border: 0;
+    background-color: white;
+    font-weight: bold;
+    opacity: 0.3;
+}
+
+.button-opacity {
+    opacity: 1;
+}
+
+.button-opacity:hover {
+    cursor: pointer;
+}
+
+form textarea {
+    width: calc(100% - 56.45px);
+    border: 0;
+    outline: 0;
+    resize: none;
+    height: 18px;
+    overflow: auto;
+}
+
+@media (max-width: 1200px) {
+    nav {
+        padding: 12px 12px;
+    }
+}
+
+@media (max-width: 930px) {
+    .user-section{
+        display: none;
+    }
+}
+
+@media (max-width: 730px) {
+    .input-field {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .post-image {
+        height: 320px;
+        width: 320px;
+    }
+
+    .post {
+    max-width: 320px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon-section img {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 380px) {
+    .icon-section {
+        display: none;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    nav h1 {
+        width: fit-content;
+    }
+}
+
+@media (max-width: 360px) {
+    .post-image {
+        height: 250px;
+        width: 250px;
+    }
+
+    .post {
+    max-width: 250px;
+    }
+
+    .add-comments-section img {
+        height: 20px;
+        width: 20px;
+        padding: 6px;
+    }
+
+    form {
+        width: calc(100% - 32px);
+    }
+}
+
